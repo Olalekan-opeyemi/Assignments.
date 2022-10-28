@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: #704b2e;
+    height: 100%;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nav h2{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+.dev{
+    font-size: 12px;
+    color: #FFD300;
+}
+nav ul{
+    list-style-type: none;
+    padding: 20px;
+    color: burlywood;
+}
+nav li{
+	display: inline;
+    float: right;
+	font-style: italic;
+    padding: 30px;
+    }
+nav a{
+    color: #1d1108;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+.name{
+    color: #1d1108;
+}
+#base h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+#base p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact{
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: #704b2e;
+    border-radius: 5px;
+    border-color: white;
+	color: #1d1108;
+    cursor: grab;
+    font-weight: bold;
+}
+.title{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.about{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(19, 16, 11);
+    text-align: center;
+    font-size: 40px;
+}
+.sion{
+    color:white;
+}
+hr{
+    width:50%;
+    box-align:right;
+    margin-left:0"
+    color="burlywood"
+}
+.bout-me{
+    margin-top: 100px;
+	display: grid;
+	grid-template-columns: 45% 45%;
+	column-gap: 10%;
+	padding: 50px;
+}
+.bout-me1{
+    color: white;
+    padding-left: 20px;
+}
+.bout-me2{
+    background-image: url(https://res.cloudinary.com/dqhqdiyhm/image/upload/v1665604357/WhatsApp_Image_2021-12-03_at_10.16.45_AM_xarszy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-left: 20px;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+#base{
+    text-align: left;
+    padding-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+}
+.skills{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	column-gap: 5%;
+	padding: 10px;
+    text-align: center;
+}
+.skills1{
+    height:200px;
+    color: white;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #1d1108;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-image: url(https://png.pngtree.com/png-vector/20190412/ourmid/pngtree-html-file-document-icon-png-image_929203.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.skills2{
+    height:200px;
+    color: white;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #1d1108;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-image:url(http://cdn.onlinewebfonts.com/svg/img_54214.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.skills3{
+    height:200px;
+    color: white;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #1d1108;
+    font-weight: bold;border: 1px solid white;
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/originals/71/ee/32/71ee32577432648f9e45fbd63b2cf261.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.skills4{
+    height:200px;
+    color: white;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #1d1108;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-image: url(http://initiumlab.com/events/20170208-react-native-sharing/react_native.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sion1{
+    color:white;
+    font-size: 30px;
+}
+.projecttt{
+    text-align: center;
+    color: #1d1108;
+    font-size: 30px;
+}
+#project{
+    display: grid;
+	grid-template-columns: 45% 45%;
+	grid-gap: 20px;
+	padding: 10px;
+    text-align: center;
+}
+.project1 img{
+    padding: 50px;
+    transition: tranform .5s ease;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.project1 img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.project2{
+    padding: 50px;
+    transition: tranform .5s ease;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.project2 img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.project3{
+    background-image: url(https://www.oberlo.com/media/1603898984-lulus.png?w=1824&fit=max);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.project3{
+    padding: 50px;
+    transition: tranform .5s ease;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.project3 img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.project4{
+    background-image: url(https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/30/posts/26768/image/journal-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.project4{
+    padding: 50px;
+    transition: tranform .5s ease;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.project4 img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.footer{
+    color: white;
+}
+.footer a:hover{
+    color: burlywood;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #1d1108;
+    margin: 0;
+    width: 100%;
+}
+footer a{
+    display: flexbox;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 10%;
+    padding: 50px;
+    color: white;
+}
+
+/*mobile media query*/
+@media screen and (max-width:600px) {
+    .skills{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        column-gap: 10%;
+        grid-gap: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+    .bout-me{
+        margin-top: 100px;
+        padding: 50px;
+    }
+    #project{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        column-gap: 10%;
+        grid-gap: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 20px;
+    }
+    nav li{
+        display: inline;
+        float: right;
+        font-style: italic;
+        padding: 30px;
+    }
+    
+    a:hover{
+        color: white;
+    }
+}

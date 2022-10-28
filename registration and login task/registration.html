@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         * {
+            box-sizing: border-box;
+         }
+         body,
+         html {
+            height: 100%;
+            color: white;
+            background: radial-gradient(
+               759px at 14% 22.3%,
+               rgb(10, 64, 88) 0%,
+               rgb(15, 164, 102) 90%
+            );
+            background-size: cover;
+         }
+         /*style for form*/
+         .form {
+            position: absolute;
+            right: 25%;
+            left: 30%;
+            margin: 20px;
+            width: 500px;
+            padding: 20px;
+            background-color: white;
+            color: teal;
+            border: 1px solid green;
+            border-radius: 10px;
+         }
+         input[type="text"],
+         input[type="password"],
+         input[type="number"],
+         input[type="email"] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+         }
+         input[type="text"]:focus input[type="password"]:focus input[type="email"]:focus {
+            background-color: #ddd;
+         }
+         h1 {
+            text-align: center;
+         }
+         .btn {
+            color: white;
+            background-color: green;
+         }
+         .cancelbtn {
+            text-align: center;
+            text-decoration: none;
+            background-color: teal;
+            cursor: pointer;
+            width: 100%;
+         }
+         button {
+            border: none;
+            padding: 12px 30px;
+            margin: 8px 0;
+            border-radius: 5px;
+         }
+         input {
+            border-radius: 5px 0px;
+         }
+         button a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+         }
+         button:hover {
+            opacity: 0.8;
+         }
+
+         @media screen and (max-width: 300px) {
+            .form {
+               position: absolute;
+               right: 0;
+               margin: 20px;
+               min-width: 300px;
+               padding: 20px;
+               background-color: white;
+               color: teal;
+               border: 1px solid green;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <main class="maincontainer">
+         <div class="form">
+            <h1>Register.</h1>
+            <br />
+            <form action="/success.html">
+               <label for="fname"><b>First Name:</b></label>
+               <input type="text" placeholder="Enter your first name" name="fn" required />
+
+               <label for="lname"><b>Last Name:</b></label>
+               <input type="text" placeholder="Enter your last name" name="ln" required />
+
+               <label for="pn"><b>Phonenumber:</b></label>
+               <input type="number" placeholder="phonenumber" name="pn" required />
+
+               <label for="usn"><b>Email:</b></label>
+               <input
+                  class="register"
+                  type="email"
+                  placeholder="Enter your user email"
+                  name="usn"
+                  required />
+
+               <label>Enter your gender:</label>
+               <input type="radio" name="gender" required />
+               <label for="gender">Male</label>
+               <label for="gender">Female</label>
+               <input type="radio" name="gender" required />
+               <br /><br />
+               <label>Enter your date of birth.</label>
+               <input type="date" name="dob" required />
+               <br /><br />
+               <label for="favorite"><b>Favorite color</b></label>
+               <input type="color" name="favorite" required />
+               <br /><br />
+               <label for="psw"><b>Password</b></label>
+               <input
+                  type="password"
+                  placeholder="Enter Password"
+                  name="psw"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                  required />
+               <br />
+               <label><b>Repeat Password</b></label>
+               <input type="password" placeholder="Repeat Password" name="psw-repeat" required />
+               <br /><br />
+               <input type="checkbox" checked="checked" name="remember" /> Remember me<br />
+               <p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p>
+               <br /><br />
+               <button type="submit" class="btn">
+                  <a class="sus" href="success.html">Register.</a>
+               </button>
+            </form>
+         </div>
+      </main>
+   </body>
+</html>
